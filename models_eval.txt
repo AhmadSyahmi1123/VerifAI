@@ -1,0 +1,205 @@
+Using effiecientnet
+
+✅ Evaluation Results (V1)
+-------------------------
+Loss:     0.5773
+Accuracy: 94.49%
+
+Confusion Matrix:
+[[76056   888]
+ [ 4035  8395]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    real (0)       0.95      0.99      0.97     76944
+    fake (1)       0.90      0.68      0.77     12430
+
+    accuracy                           0.94     89374
+   macro avg       0.93      0.83      0.87     89374
+weighted avg       0.94      0.94      0.94     89374
+_________________________________________________________
+
+✅ Evaluation Results (V2)
+-------------------------
+Loss:     0.3689
+Accuracy: 89.57%
+
+Confusion Matrix:
+[[69973  6971]
+ [ 2349 10081]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    real (0)       0.97      0.91      0.94     76944
+    fake (1)       0.59      0.81      0.68     12430
+
+    accuracy                           0.90     89374
+   macro avg       0.78      0.86      0.81     89374
+weighted avg       0.92      0.90      0.90     89374
+_________________________________________________________
+
+✅ Evaluation Results (V3)
+-------------------------
+Loss:     0.3592
+Accuracy: 91.16%
+
+Confusion Matrix:
+[[71695  5249]
+ [ 2650  9780]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    real (0)       0.96      0.93      0.95     76944
+    fake (1)       0.65      0.79      0.71     12430
+
+    accuracy                           0.91     89374
+   macro avg       0.81      0.86      0.83     89374
+weighted avg       0.92      0.91      0.92     89374
+__________________________________________________________
+
+✅ Evaluation Results (V4)
+-------------------------
+Loss:     0.8052
+Accuracy: 77.47%
+
+Confusion Matrix:
+[[57406 19538]
+ [  599 11831]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    real (0)       0.99      0.75      0.85     76944
+    fake (1)       0.38      0.95      0.54     12430
+
+    accuracy                           0.77     89374
+   macro avg       0.68      0.85      0.70     89374
+weighted avg       0.90      0.77      0.81     89374
+__________________________________________________________
+
+✅ Evaluation Results (v8)
+-------------------------
+Loss:     0.4274
+Accuracy: 90.62%
+
+Confusion Matrix:
+[[71166  5778]
+ [ 2608  9822]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    real (0)       0.96      0.92      0.94     76944
+    fake (1)       0.63      0.79      0.70     12430
+
+    accuracy                           0.91     89374
+   macro avg       0.80      0.86      0.82     89374
+weighted avg       0.92      0.91      0.91     89374
+
+
+Using Convnext_Tiny
+__________________________________________________________
+
+✅ Evaluation Results (v9)
+-------------------------
+Loss:     0.3869
+Accuracy: 95.19%
+
+Confusion Matrix:
+[[75856  1088]
+ [ 3208  9222]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    real (0)       0.96      0.99      0.97     76944
+    fake (1)       0.89      0.74      0.81     12430
+
+    accuracy                           0.95     89374
+   macro avg       0.93      0.86      0.89     89374
+weighted avg       0.95      0.95      0.95     89374
+_________________________________________________________
+
+✅ Evaluation Results (v10)
+-------------------------
+Loss:     0.4839
+Accuracy: 95.30%
+
+Confusion Matrix:
+[[76222   722]
+ [ 3477  8953]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    real (0)       0.96      0.99      0.97     76944
+    fake (1)       0.93      0.72      0.81     12430
+
+    accuracy                           0.95     89374
+   macro avg       0.94      0.86      0.89     89374
+weighted avg       0.95      0.95      0.95     89374
+_________________________________________________________
+
+✅ Evaluation Results (v11)
+-------------------------
+Loss:     0.4268
+Accuracy: 95.59%
+
+Confusion Matrix:
+[[76175   769]
+ [ 3176  9254]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    real (0)       0.96      0.99      0.97     76944
+    fake (1)       0.92      0.74      0.82     12430
+
+    accuracy                           0.96     89374
+   macro avg       0.94      0.87      0.90     89374
+weighted avg       0.95      0.96      0.95     89374
+
+
+Using convnext_small
+_________________________________________________________
+
+✅ Evaluation Results (10 epoch)
+-------------------------
+Loss:     0.3467
+Accuracy: 95.55%
+
+Confusion Matrix:
+[[75928  1016]
+ [ 2957  9473]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    real (0)       0.96      0.99      0.97     76944
+    fake (1)       0.90      0.76      0.83     12430
+
+    accuracy                           0.96     89374
+   macro avg       0.93      0.87      0.90     89374
+weighted avg       0.95      0.96      0.95     89374
+
+✅ Evaluation Results (v13)
+-------------------------
+Loss:     0.4482
+Accuracy: 95.70%
+
+Confusion Matrix:
+[[76240   704]
+ [ 3138  9292]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    real (0)       0.96      0.99      0.98     76944
+    fake (1)       0.93      0.75      0.83     12430
+
+    accuracy                           0.96     89374
+   macro avg       0.95      0.87      0.90     89374
+weighted avg       0.96      0.96      0.96     89374
